@@ -1,0 +1,35 @@
+#DOCUMENTATION
+Functions used in this project are :
+1. def check( ): To check if the entered username and password is valid
+if it is valid it will continue the program else it displays error message
+2. def changed(self ): To change the value in the itens drop down box when the value in the category drop down changes this functions runs
+3. def add(): To add the item into the billing area
+4. def welcome(): To display the textbox area with welcome texts
+5. def generate(): to generate the bills and save it.
+6. def clear(): to clear the textbox area
+7. def reduce(): To reduce the stocks of the purchased items
+8. def billNo(): generates random unique bill NO. For the bills
+9. def Exit(): To exit from the program
+10. def add_log(): To create a new window to add the new employee or admin details
+11. def logtxt(): To fill the log textarea with the activity done by the users
+12. def welcomex(): To add the heading to the atore textarea
+13. def clearx(): To clears textarea in warehouse
+14. def addx():To add preferred values to the textarea in warehouse
+15. def new():To add new product to the data base
+16. def update():To update the data in the MySQL database
+17. def c_start():To open the choice window
+18. def choice_a():To open the log window
+19. def choice_w():To open the warehouse window
+20. def back1():To go back to the start page
+21. def back2():To go back to the choice page
+22. def back3():To go back to the choice page
+23. def refresh():To refresh the log textarea
+24. startup:
+def startupx(password):To enter values to the mySQL database
+25. log_m:
+def log_add(name,x):To append to the log.txt file
+Files used in this project are :
+1. Pd.dat:- to store the login details
+2. Generated bills:-to save the generated bills to that folder
+3. Log.txt: To save the activity done by the user
+4. MySQL : To Manage the stocks in the store
