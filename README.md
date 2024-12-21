@@ -11,10 +11,9 @@ The **COMPUTER BILLING SYSTEM** is a Python-based application designed to automa
 3. [Technology Stack](#technology-stack)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [Folder Structure](#folder-structure)
-7. [Future Enhancements](#future-enhancements)
-8. [License](#license)
-9. [Contact](#contact)
+6. [Future Enhancements](#future-enhancements)
+7. [License](#license)
+8. [Contact](#contact)
 
 ---
 
@@ -44,16 +43,6 @@ This project is designed to simplify the billing process for businesses selling 
 - **Libraries Used:** Tkinter (for GUI), File Handling (for data storage)
 
 ---
-## File Structure
-COMPUTER_BILLING_SYSTEM/
-├── main.py              # Entry point for the application
-├── billing.py           # Module for managing bills and invoicing
-├── inventory.py         # Module for managing product inventory
-├── data/                # Directory for storing data files
-│   ├── products.csv     # File for product details
-│   └── sales.csv        # File for sales records
-├── README.md            # Project documentation
-└── requirements.txt     # Dependency file (if needed)
 
 ## Installation
 
@@ -66,7 +55,60 @@ TO START:-
 -RUN THE MAINV2.PY FILE
 -USER: admin
 -password:12345
+Usage
+Launch the Application:
+
+Run the main.py file to start the application.
+Manage Products:
+
+Add, remove, and update product details like name, price, and stock.
+Generate Bill:
+
+Select products and their quantities to generate an invoice automatically.
+Track Sales:
+
+The application will calculate the total sale amount, taxes, and give a final bill.
+Folder Structure
+bash
+Copy code
+## Usage
+
+1. **Launch the Application:**
+   - Run the `main.py` file to start the application.
+
+2. **Manage Products:**
+   - Add, remove, and update product details like name, price, and stock.
+
+3. **Generate Bill:**
+   - Select products and their quantities to generate an invoice automatically.
+
+4. **Track Sales:**
+   - The application will calculate the total sale amount, taxes, and give a final bill.
+
+
+---
+
+## Future Enhancements
+
+- **Graphical User Interface (GUI):**
+  - Enhance the GUI for better user interaction using Tkinter or PyQt.
+  
+- **Database Integration:**
+  - Switch from file-based storage to a database like SQLite for better scalability.
+  
+- **Advanced Reporting:**
+  - Add sales reporting features for tracking monthly/yearly data.
+
+---
+
 ## License
+
 This project is open-source and available for personal and educational use. Feel free to modify and expand upon it as per your requirements.
+
+
+## Contact
+
+GitHub: Advaithdp02
+
 
 
